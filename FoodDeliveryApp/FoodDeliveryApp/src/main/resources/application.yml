@@ -1,0 +1,11 @@
+spring.datasource.url: jdbc:postgresql://localhost:5432/food_delivery_app
+spring.datasource.username: postgres
+spring.datasource.password: postgres
+spring.jpa.hibernate.ddl-auto: create-drop
+spring.jpa.show-sql: true
+spring:
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
