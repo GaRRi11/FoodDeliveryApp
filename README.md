@@ -1,6 +1,9 @@
 # FoodDeliveryApp
 Spring Boot application with Spring Data JPA and Spring Security
 
+The customer registers and authenticates via Spring Security gets jwt token and sends POST and GET requests via jwt token. 
+
+API gots admin endpoints too with its own security config admin can add, modify and delete items from the menu and see all customer's orders.
 
 
 
