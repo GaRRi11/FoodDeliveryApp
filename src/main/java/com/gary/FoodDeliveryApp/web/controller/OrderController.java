@@ -30,8 +30,8 @@ public class OrderController {
                         ordersRequest.getItemIds() == null ||
                         ordersRequest.getAddress() == null
         ) {
-            throw new EmailAlreadyExistsException("The specified username or email already exists");
-        }
+            throw new NullPointerException("The request was malformed or missing required fields");
+}
         return orderService.setOrder(orderDTOMapper.fromDTO(ordersRequest,UserContext.getCustomer()));
     }
 
