@@ -13,5 +13,7 @@ With that API you can connect user and business to each other. I use Spring secu
 
 
 
-in API most important part is Spring Data JPA which gave me the opportunity to relate models to each other there is a relationships diagram of those models: 
+in API most important part is Spring Data JPA which gave me the opportunity to relate models to each other there is a relationships diagram of those models:
+
+
 ![my diagram](https://github.com/GaRRi11/FoodDeliveryApp/assets/101354276/4bfbe3b9-7da5-482c-93bf-55f458d7cd1c)
