@@ -6,15 +6,15 @@ With that API you can connect user and business to each other. I use Spring secu
 
 • [Java](https://www.java.com): Java programming language
 
-• Spring Boot: Most famous framework for building server applications on java
+• [Spring Boot](https://spring.io/projects/spring-boot): Most famous framework for building server applications on java
 
-• Spring Security: One of the most important part of Spring ecosystem to secure API endpoints
+• [Spring Security](https://spring.io/projects/spring-security): One of the most important part of Spring ecosystem to secure API endpoints
 
-• Spring Data JPA: For mapping Java objects to a relational database and relate models to each other.
+• [Spring Data JPA](https://spring.io/projects/spring-data-jpa): For mapping Java objects to a relational database and relate models to each other.
 
-• PostgresSQL: Very popular and battle tested Relational type of database
+• [PostgresSQL](https://www.postgresql.org/docs/current/index.html): Very popular and battle tested Relational type of database
 
-• Hibernate: Most popular JPA implementation. Battle tested framework to work with databases from java.
+• [Hibernate](https://hibernate.org/): Most popular JPA implementation. Battle tested framework to work with databases from java.
 
 
 
