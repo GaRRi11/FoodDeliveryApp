@@ -4,7 +4,7 @@ With that API you can connect user and business to each other. I use Spring secu
 
 # Technologies used
 
-• [Java](https://www.java.com) Java programming language
+• [Java](https://www.java.com): Java programming language
 
 • Spring Boot: Most famous framework for building server applications on java
 
