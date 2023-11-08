@@ -41,7 +41,7 @@ public class AddressController {
                 () -> new AddressDoesnNotExistException(id));
     }
 
-    @GetMapping("/delete_address/{id}")
+    @DeleteMapping("/delete_address/{id}")
     public void deleteAddressById(@PathVariable("id") Long id){
          addressService.deleteById(id);
     }

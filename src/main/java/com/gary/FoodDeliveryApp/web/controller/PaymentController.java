@@ -46,7 +46,7 @@ public class PaymentController {
                 () -> new CreditCardDoesNotExistException(id));
     }
 
-    @GetMapping("/delete_credit_card/{id}")
+    @DeleteMapping("/delete_credit_card/{id}")
     public void deleteCreditCardById(@PathVariable("id") Long id){
         paymentService.deleteById(id);
     }

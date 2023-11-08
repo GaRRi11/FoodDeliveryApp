@@ -35,7 +35,7 @@ public class AdminController {
         return itemService.saveItem(itemDTOMapper.fromDTO(itemRequest));
     }
 
-    @GetMapping("/delete_item/{id}")
+    @DeleteMapping("/delete_item/{id}")
     @PreAuthorize("hasRole('ADMIN')")
     public void deleteItemById(@PathVariable("id") Long id) {
         itemService.deleteItemById(id);
